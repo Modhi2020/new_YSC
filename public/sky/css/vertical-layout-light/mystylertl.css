@@ -1,0 +1,172 @@
+.bg-indigo {
+    background-color: #0987c9 !important;
+    color: #fff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.bg-indigo .content .text,
+.bg-indigo .content .number {
+    color: #fff !important;
+}
+
+.breadcrumb-bg-indigo {
+    background-color: #006838 !important;
+}
+
+.breadcrumb-bg-indigo li {
+    color: #fff !important;
+}
+
+.breadcrumb-bg-indigo li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.breadcrumb-bg-indigo li a .material-icons {
+    padding-bottom: 8px;
+}
+
+.breadcrumb-bg-indigo li+li:before {
+    color: #fff;
+}
+
+.card .header {
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    /* direction: rtl; */
+    border-bottom: 1px solid rgba(204, 204, 204, 0.35);
+    text-align: justify;
+}
+
+.card .header h2 {
+    margin: 0;
+    font-weight: normal;
+    color: #fff;
+    padding: 7px;
+}
+
+.card .header h2 small {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #999;
+    line-height: 15px;
+}
+
+.card .header h2 small a {
+    font-weight: bold;
+    color: #777;
+}
+
+.card .header .col-xs-12 h2 {
+    margin-top: 5px;
+}
+
+.myweb {
+    background-color: #f39200 !important;
+    color: #fff !important;
+    font-size: 13px;
+}
+
+.myweb:hover,
+.myweb:active,
+.myweb:focus {
+    background-color: #f39200 !important;
+    color: #fff !important;
+}
+
+.mywebadd {
+    background-color: #f39200 !important;
+    color: #fff !important;
+    font-size: 13px;
+}
+
+.mywebadd:hover,
+.mywebadd:active,
+.mywebadd:focus {
+    background-color: #f39200 !important;
+    color: #fff !important;
+}
+
+.mywebedit {
+    background-color: #f39200 !important;
+    color: #fff !important;
+    font-size: 13px;
+}
+
+.mywebedit:hover,
+.mywebedit:active,
+.mywebedit:focus {
+    background-color: #0987c9 !important;
+    color: #fff !important;
+}
+
+.mywebeditmb {
+    background-color: #a7a7a7 !important;
+    color: #fff !important;
+    border: 2px groove #E3DCD2 !important;
+}
+
+.mywebeditmb:hover,
+.mywebeditmb:active,
+.mywebeditmb:focus {
+    background-color: #E8E6E6 !important;
+    color: black !important;
+}
+
+.mywebdelete {
+    background-color: #878787 !important;
+    color: white !important;
+}
+
+.mywebdelete:hover,
+.mywebdelete:active,
+.mywebdelete:focus {
+    background-color: #E8E6E6 !important;
+    color: black !important;
+}
+
+.mywebview {
+    background-color: #f39200 !important;
+    color: #fff !important;
+    font-size: 13px;
+    float: right;
+}
+
+.mywebview:hover,
+.mywebview:active,
+.mywebview:focus {
+    background-color: #f39200 !important;
+    color: #fff !important;
+}
+
+.taskback {
+    float: left !important;
+    margin-top: -7px !important;
+}
+
+.btndir {
+    float: left;
+    padding: 5px;
+    margin-top: -8px;
+}
+
+.btntab {
+    float: right;
+    padding: 5px;
+    margin-top: -12px;
+    margin-left: 5px;
+}
+
+.tabdesgin {
+    padding: 14px;
+    /* border-radius: 9% */
+}
+
+.img-responsive {
+    width: 70%;
+    max-height: 450px;
+    /* max-height: 70%; */
+}

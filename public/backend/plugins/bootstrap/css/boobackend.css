@@ -1,0 +1,211 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+.btn-sm,
+.btn-group-sm>.btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: #f39200;
+    color: white;
+}
+
+.btn-xs,
+.btn-group-xs>.btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-block+.btn-block {
+    margin-top: 5px;
+}
+
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+    width: 100%;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.dropup,
+.bdropdown {
+    position: relative;
+}
+
+.dropdown-toggle:focus {
+    outline: 0;
+}
+
+.bdropdown-menu {
+    position: relative;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 130px;
+    padding: 5px 3px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    margin-top: -46px;
+    background-color: #ffffffe8;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.bdropdown-menu.pull-right {
+    right: 0;
+    left: auto;
+}
+
+.bdropdown-menu a {
+    /* border: 7px solid rgb(199 35 35 / 15%); */
+    max-height: 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.bdropdown-menu p {
+    color: darkgreen;
+    margin-top: 0px;
+}
+
+.bdropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.bdropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.bdropdown-menu>li>a:hover,
+.bdropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    list-style: none;
+    background-color: #9e1111;
+}
+
+.bdropdown-menu>.active>a,
+.bdropdown-menu>.active>a:hover,
+.bdropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #337ab7;
+    outline: 0;
+}
+
+.bdropdown-menu>.disabled>a,
+.bdropdown-menu>.disabled>a:hover,
+.bdropdown-menu>.disabled>a:focus {
+    color: #777;
+}
+
+.bdropdown-menu>.disabled>a:hover,
+.bdropdown-menu>.disabled>a:focus {
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+    background-image: none;
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.open>.bdropdown-menu {
+    display: flex;
+}
+
+.open>a {
+    outline: 0;
+}
+
+.bdropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.bdropdown-menu-left {
+    right: auto;
+    left: 0;
+}
+
+.bdropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #777;
+    white-space: nowrap;
+}
+
+.bdropdown-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 990;
+}
+
+.pull-right>.bdropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+    content: "";
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+}
+
+.dropup .bdropdown-menu,
+.navbar-fixed-bottom .dropdown .bdropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 2px;
+}
+
+
+/*# sourceMappingURL=bootstrap.css.map */

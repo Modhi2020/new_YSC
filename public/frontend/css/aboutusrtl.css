@@ -1,0 +1,114 @@
+    html {
+        font-family: 'Hacen Maghreb Lt', sans-serif;
+        direction: rtl;
+    }
+    /* Typography */
+    
+    ol,
+    ul {
+        padding-left: 0;
+    }
+    
+    .menu li.subitem a p {
+        margin: 0.5rem 0;
+    }
+    
+    .menu li.subitem a {
+        color: #0987C8 !important;
+    }
+    
+    .menu li.subitem a:hover {
+        color: #f39200 !important;
+    }
+    
+    .h2 {
+        font-size: 40px;
+    }
+    
+    .h3 {
+        font-size: 28px;
+    }
+    
+    .light-300 {
+        font-family: 'Hacen Maghreb Lt', sans-serif;
+        font-weight: 300;
+    }
+    
+    .regular-400 {
+        font-family: 'Hacen Maghreb Lt', sans-serif;
+        font-weight: 400;
+    }
+    
+    .semi-bold-600 {
+        font-family: 'Hacen Maghreb Lt', sans-serif;
+        font-weight: 600;
+    }
+    
+    .typo-space-line::after,
+    .typo-space-line-center::after {
+        content: "";
+        width: 150px;
+        display: block;
+        position: absolute;
+        border-bottom: 5px solid #f39200;
+        padding-top: .5em;
+        direction: rtl;
+    }
+    
+    .typo-space-line-center::after {
+        right: 50%;
+        margin-right: -75px;
+    }
+    /* About */
+    
+    #work_banner {
+        background-image: url('/assets/images/img/banner-bg-02.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .progress {
+        height: 8px;
+    }
+    
+    .objective-icon {
+        border-radius: 13px;
+        width: 8rem;
+    }
+    
+    .partner-wap {
+        background-color: #f39200;
+        transition: 1s;
+        cursor: pointer;
+    }
+    
+    .partner-wap:hover {
+        background-color: #f39200;
+    }
+    
+    .why-us {
+        background: rgb(245, 245, 245);
+        background: -moz-linear-gradient(0deg, rgba(245, 245, 245, 1) 50%, rgba(255, 255, 255, 1) 50%);
+        background: -webkit-linear-gradient(0deg, rgba(245, 245, 245, 1) 50%, rgba(255, 255, 255, 1) 50%);
+        background: linear-gradient(0deg, rgba(245, 245, 245, 1) 50%, rgba(255, 255, 255, 1) 50%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#efeffd", endColorstr="#ffffff", GradientType=1);
+    }
+    
+    .team-member-img {
+        transition-duration: 0.15s;
+    }
+    
+    .team-member:hover .team-member-img {
+        padding: 10px !important;
+    }
+    
+    @font-face {
+        font-family: 'Hacen Maghreb Lt';
+        src: url('../fonts/HacenMaghrebLt.eot');
+        src: url('../fonts/HacenMaghrebLt.eot?#iefix') format('embedded-opentype'), url('../fonts/HacenMaghrebLt.woff2') format('woff2'), url('../fonts/HacenMaghrebLt.woff') format('woff'), url('../fonts/HacenMaghrebLt.ttf') format('truetype'), url('../fonts/HacenMaghrebLt.svg#HacenMaghrebLt') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }

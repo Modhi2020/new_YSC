@@ -1,0 +1,674 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+
+/* body {
+    color: #333333;
+    font-family: 'Hacen Maghreb Lt', sans-serif;
+} */
+
+
+/* header */
+
+
+/* 
+header {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    background-color: transparent!important;
+    height: 80px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+} */
+
+
+/* 
+header .navbar {
+    direction: 'rtl';
+}
+
+.background-header .navbar {
+    padding: 10px 0px;
+}
+
+.background-header {
+    top: 0;
+    position: fixed;
+    background-color: #fff!important;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.background-header .navbar-nav a.nav-link {
+    color: #213F99!important;
+}
+
+.background-header .navbar-nav .nav-link:hover,
+.background-header .navbar-nav .active>.nav-link,
+.background-header .navbar-nav .nav-link.active,
+.background-header .navbar-nav .nav-link.show,
+.background-header .navbar-nav .show>.nav-link {
+    color: #00AEEF!important;
+}
+
+.navbar .navbar-brand {
+    float: left;
+    margin-top: 12px;
+    outline: none;
+}
+
+.navbar .navbar-brand h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.navbar .navbar-brand h2 em {
+    font-style: normal;
+    font-size: 16px;
+}
+
+#navbarResponsive {
+    z-index: 999;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin: 0px 15px;
+}
+
+.navbar .navbar-nav a.nav-link {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #fff;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show>.nav-link {
+    color: #00AEEF;
+    border-bottom: 3px solid #00AEEF;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar .navbar-toggler {
+    border-color: #fff;
+    background-color: #fff;
+    height: 36px;
+    outline: none;
+    border-radius: 0px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.navbar .navbar-toggler-icon:after {
+    content: '\f0c9';
+    color: #00AEEF;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'FontAwesome';
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #00AEEF;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.mybrand {
+    max-width: 250px;
+    margin: auto;
+    vertical-align: middle;
+    border-style: none;
+} */
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+
+/* .carousel {
+    margin-bottom: 4rem;
+} */
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item img {
+    top: 0;
+    right: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-caption .btn-primary {
+    color: #fff;
+    background-color: #00AEEF;
+    border-color: #00AEEF;
+}
+
+.carousel-caption .btn-primary:hover {
+    color: #fff;
+    background-color: #213F99;
+    border-color: #213F99;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing {
+    margin-top: 4rem;
+}
+
+.section-heading h2 {
+    text-align: center;
+    color: #213F99;
+    margin-bottom: 50px;
+    font-weight: 375;
+    font-size: 50px;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-md-4 {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.down-content h2 {
+    font-weight: 300;
+    color: #213F99;
+    margin-top: 1.125rem;
+}
+
+.down-content p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.down-content .btn-primary {
+    color: #fff;
+    background-color: #00AEEF;
+    border-color: #00AEEF;
+}
+
+.down-content .btn-primary:hover {
+    color: #fff;
+    background-color: #213F99;
+    border-color: #213F99;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-divider .row {
+    background-color: #00AEEF;
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 375;
+    line-height: 1;
+    font-size: 50px;
+    color: #213F99;
+}
+
+.myfeaturette-headingleft {
+    margin-top: 5.5rem;
+    /* vertical-align: middle!important; */
+}
+
+.myfeaturette-headingleft p {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.myfeaturette-headingright {
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+    /* vertical-align: middle!important; */
+}
+
+.myfeaturette-headingright p {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.service-item img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 5rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    @media (min-width: 62em) {
+        .featurette-heading {
+            margin-top: 5rem;
+        }
+    }
+    .single-services {
+        margin-top: 140px;
+    }
+}
+
+
+/* reviews
+-------------------------------------------------- */
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+/* Three column layout */
+
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+
+/* Place text to the right */
+
+.right {
+    text-align: right;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* The bar container */
+
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+
+/* Individual bars */
+
+.bar-5 {
+    width: 93%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+
+.bar-4 {
+    width: 87%;
+    height: 18px;
+    background-color: #f44336;
+}
+
+.bar-3 {
+    width: 90%;
+    height: 18px;
+    background-color: #ff9800;
+}
+
+.bar-2 {
+    width: 100%;
+    height: 18px;
+    background-color: #2196F3;
+}
+
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+
+@media (max-width: 400px) {
+    .side,
+    .middle {
+        width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+        display: none;
+    }
+}
+
+
+/* footer
+-------------------------------------------------- */
+
+footer {
+    margin-top: 5rem;
+}
+
+p.backtotop {
+    color: #ffffff;
+    background-color: #213F99;
+    margin-left: 1rem;
+    border-radius: 48px;
+    width: 2.4em;
+    height: 2.4em;
+    line-height: 2.4em;
+    text-align: center;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited,
+a:link {
+    text-decoration: none;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-radius: 2rem;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        border-radius: 2rem;
+    }
+    .rounded {
+        border-radius: 2rem!important;
+    }
+}
+
+.bd-placeholder-imgcarousel {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.right-hfooter {
+    margin-top: 1.5rem;
+}
+
+.mylist .col-md-4 {
+    text-align: right;
+    margin-top: 0rem;
+}
+
+.marketing .col-md-4 img {
+    max-width: 100%;
+    height: 430;
+}
+
+
+/* Call Back Style */
+
+.callback-services {
+    border-top: 1px solid #eee;
+    padding-top: 50px;
+}
+
+.contact-us {
+    background-color: #f7f7f7;
+    padding: 50px 0px;
+}
+
+.contact-us .contact-form {
+    background-color: transparent!important;
+    padding: 0!important;
+}
+
+.callback-form {
+    margin-top: 80px;
+}
+
+.callback-form .contact-form {
+    background-color: #00AEEF;
+    padding: 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.callback-form .contact-form select,
+.callback-form .contact-form input {
+    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #6a6a6a;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 35px;
+}
+
+.callback-form .contact-form select:focus,
+.callback-form .contact-form input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.callback-form .contact-form textarea {
+    border-radius: 20px;
+    height: 120px;
+    max-height: 200px;
+    min-height: 120px;
+    display: inline-block;
+    padding: 15px;
+    color: #6a6a6a;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 35px;
+}
+
+.callback-form .contact-form textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.callback-form .contact-form ::-webkit-input-placeholder {
+    /* Edge */
+    color: #aaa;
+}
+
+.callback-form .contact-form :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #aaa;
+}
+
+.callback-form .contact-form ::placeholder {
+    color: #aaa;
+}
+
+.callback-form .contact-form button.border-button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 28px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.callback-form .contact-form button.border-button:hover {
+    background-color: #fff;
+    color: #00AEEF;
+}
+
+.contact-us .contact-form button.filled-button {
+    background-color: #00AEEF;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.contact-us .contact-form button.filled-button:hover {
+    background-color: #fff;
+    color: #00AEEF;
+}
+
+
+/* Contact Information */
+
+.contact-information {
+    margin-top: 10px;
+}
+
+.contact-information .contact-item {
+    padding: 60px 30px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.contact-information .contact-item i {
+    color: #00AEEF;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.contact-information .contact-item h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+
+.contact-information .contact-item p {
+    margin-bottom: 20px;
+}
+
+.contact-information .contact-item a {
+    font-weight: 600;
+    color: #00AEEF;
+    font-size: 15px;
+}
